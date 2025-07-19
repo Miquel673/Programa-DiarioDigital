@@ -8,6 +8,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tvClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargando clima..."
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
     <!-- Botón para cambiar el tema -->
     <Button
         android:id="@+id/btnCambiarTema"
