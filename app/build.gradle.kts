@@ -36,6 +36,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.recyclerview)
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+
 
     // Room
     implementation(libs.room.runtime)
